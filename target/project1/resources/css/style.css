@@ -1,0 +1,167 @@
+.myBg{
+    background-color: #64758C;
+}
+
+#slideshowImg{
+    height: 750px;
+    object-fit: cover;
+}
+
+.carousel-caption{
+    color: #FFFFFF;
+
+    top: 40%;
+    bottom: auto;
+}
+
+.myBanner{
+    background-color: #64758C;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.myIconSize{
+    font-size: 35px;
+}
+
+.myBannerSpace{
+    margin-bottom: 20px;
+}
+
+.myHr{
+    height: 1px;
+    border-top: 2px solid rgb(118, 118, 118);
+    border-radius: 10px;
+    width: 5%;
+}
+
+.whoWeAreText{
+    text-align: justify;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.myQuoteImg{
+    height: 400px;
+
+    background-image: url("../media/images/astronomy-background-constellation-cosmic.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    display: block;
+    color: #FFF;
+    text-align: center;
+}
+
+.noMargin{
+    margin: 0% !important;
+    padding: 0% !important;
+}
+
+.arrowDown{
+    margin-top: 25%;
+
+    animation: bounce 3s infinite;
+}
+
+.myWorkBg{
+    background-image: url("../media/images/moon.jpg");
+    height: 300px;
+    text-align: center;
+    background-size: cover;
+}
+
+.myWorkBg2{
+    background-image: url("../media/images/sun-fire.jpg");
+    height: 300px;
+    text-align: center;
+    background-size: cover;
+}
+
+.myWorkBg3{
+    background-image: url("../media/images/earth.jpg");
+    height: 300px;
+    text-align: center;
+    background-size: cover;
+}
+
+.myWorkBg4{
+    height: 300px;
+    text-align: center;
+    background-image: url("../media/images/blue-and-brown-milky-way-galaxy.jpg");
+    background-size: cover;
+}
+.myWorkBg4:hover{
+    background: rgb(22, 22, 22);
+}
+
+/* CSS Before */
+.myWorkBg:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(180, 180, 180, 0.5);
+}
+
+.myWorkBg:hover{
+    position: initial;
+    background: rgb(212, 212, 212);
+}
+
+.wrapper{
+   margin-top: 40%;
+}
+
+.seeFromAnyPlace{
+    z-index: 1000;
+    color: rgb(0, 0, 0); 
+}
+.seeFromAnyPlace:hover{
+    color: rgb(116, 116, 116);
+}
+
+.exploreBtn{
+    z-index: 1000;
+    color: rgb(250, 250, 250); 
+}
+.exploreBtn:hover{
+    color: rgb(47, 97, 204);
+}
+
+.myEndorsement{
+    text-align: center;
+}
+
+.socialMediaIcons{
+    margin: 30px;
+    font-size: 24px;
+}
+
+#footer{
+    background-color: #64758C;
+    
+}
+
+#authorImg{
+    width: 100%;
+    height: 90%;
+}
+
+.aboutText{
+    text-align: justify;
+    margin: 2%;
+}
+
+.keepMargin{
+    margin: 2%;
+}
+
+a:hover{
+    color: rgb(7, 27, 117);
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+
+        <!-- My CSS -->
+        <link rel="stylesheet" href="resources/css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+        <title>About this author</title>
+    </head>
+    <body onload="checkSession(); checkBg()">
+
+        <!-- Header -->
+        <nav class="navbar navbar-expand-lg navbar-light myBg">
+            <a class="navbar-brand" href="#">Cosmic Journey</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="historicalCosmologies.html">Historical Cosmologies</a></li>
+                    <li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> About </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="about-author.html">Author</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="about-theory.html">Theory</a>
+                        </div>
+                    </li>
+                </ul>
+                <div id="greeting"></div>
+            </div>
+        </nav>
+        <!-- End Header-->
+        <br />
+        
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">About
+                    This Author</li>
+            </ol>
+        </nav>
+        <!-- End Of Breadcrumb -->
+
+        <!-- Jumbotron -->
+        <div class="jumbotron myAboutBG">
+            <h1 class="display-4">About Andrei Linde</h1>
+            <hr class="my-4">
+            <p>Russian: Андре́й Дми́триевич Ли́нде; born March 2, 1948</p>
+        </div>
+        <!-- End Jumbotron -->
+
+        <!-- About Author -->
+        <section id="about">
+            <div class="container-fluid" id="texto666">
+                <div class="row">
+                    <div class="d-none d-sm-block col-sm-6 col-md-6 col-lg-4">
+                        <img id="authorImg" src="resources/media/images/Andrei_Linde.jpg"
+                             alt="Andrei_Linde" />
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-8">
+                        <div class="container">
+                            <div class="row aboutText">
+                                <p>Andrei Dmitriyevich Linde is a Russian-American
+                                    theoretical physicist and the Harald Trap Friis Professor of
+                                    Physics at Stanford University. Linde is one of the main authors
+                                    of the inflationary universe theory, as well as the theory of
+                                    eternal inflation and inflationary multiverse. He received his
+                                    Bachelor of Science degree from Moscow State University. In
+                                    1975, Linde was awarded a Ph.D. from the Lebedev Physical
+                                    Institute in Moscow. He worked at CERN (European Organization
+                                    for Nuclear Research) since 1989 and moved to the United States
+                                    in 1990, where he became professor of physics at Stanford
+                                    University. Among the various awards he has received for his
+                                    work on inflation, in 2002 he was awarded the Dirac Medal, along
+                                    with Alan Guth of MIT and Paul Steinhardt of Princeton
+                                    University. In 2004 he received, along with Alan Guth, the
+                                    Gruber Prize in Cosmology for the development of inflationary
+                                    cosmology. In 2012 he, along with Alan Guth, was an inaugural
+                                    awardee of the Fundamental Physics Prize. In 2014 he received
+                                    the Kavli Prize in Astrophysics "for pioneering the theory of
+                                    cosmic inflation", together with Alan Guth and Alexei
+                                    Starobinsky. In 2018 he received the Gamow Prize.</p>
+                            </div>
+
+                            <div class="row keepMargin">
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-8">
+                                    <h5>Theories</h5>
+                                    <!-- Unordered List -->
+                                    <ul style="list-style-type: circle">
+                                        <li><a href="about-theory.html">New Inflation</a></li>
+                                        <li>Chaotic inflation</li>
+                                        <li>Creation of matter in the universe</li>
+                                        <li>Inflationary multiverse and eternal chaotic inflation</li>
+                                        <li>Inflation and string theory</li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-8">
+                                    <h5>Honors and Awards</h5>
+                                    <ul style="list-style-type: circle">
+                                        <li>Dirac Medal</li>
+                                        <li>Gruber Prize in Cosmology</li>
+                                        <li><a href="https://breakthroughprize.org/Laureates/1/L5">Fundamental
+                                            Physics Prize</a></li>
+                                        <li>Kavli Prize</li>
+                                        <li>Gamow Prize</li>
+                                        <li>Member of the National Academy of Sciences and of the
+                                            American Academy of Arts and Sciences.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End About Author-->
+        <br />
+        <br />
+        <br />
+        <!-- Footer -->
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                        <br />
+                        <h4>Cosmic Journey</h4>
+                        <p>Everything about cosmology. To infinity and beyond!</p>
+                        <div class="row">
+                            <i class="fab fa-facebook-f socialMediaIcons"></i> 
+                            <i class="fab fa-twitter socialMediaIcons"></i> 
+                            <i class="fab fa-instagram socialMediaIcons"></i>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                        <br />
+                        <br />
+                        <ul class="noStyleType">
+                            <li>Address: Universidade de Coimbra, Polo II - Pinhal de
+                                Marrocos, 3030-290 Coimbra</li>
+                            <li>Phone Number: +351 239 790 000</li>
+                            <li>Email: hello@cosmicjourney.pt</li>
+                        </ul>
+                    </div>
+                    <div class="btn-group-toggle" data-toggle="buttons"><br />
+                        <br />
+                        <br />
+                        <label class="btn btn-secondary active">
+                            <button type="button" class="btn btn-dark" onclick="changeBackground()">Change background color</button>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- End Footer -->
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="resources/js/custom.js"></script>
+
+    </body>
+</html>

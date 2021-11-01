@@ -1,0 +1,44 @@
+Componentes usados dos bootstrap:
+
+-- Version 4 - bootstrap
+-- Font awesome for icons
+
+<meta charset="utf-8"> Bootstrap uses HTML elements and CSS properties that require the HTML5 doctype.
+
+--Bootstrap grid system has four classes:
+xs (for phones - screens less than 768px wide)
+sm (for tablets - screens equal to or greater than 768px wide)
+md (for small laptops - screens equal to or greater than 992px wide)
+lg (for laptops and desktops - screens equal to or greater than 1200px wide)
+
+--Create a row (<div class="row">). Then, add the desired number of columns (tags with appropriate .col-*-* classes)
+
+--Jumbotron indicates a big box for calling extra attention to some special content or information
+
+-- Why do we put a # in the href attribute of the link? Since we do not have any page to link it to, and we do not want to get a "404" message, we put # as the link in our examples. It should be a real URL to a specific page.
+
+--The .breadcrumb class indicates the current page's location within a navigational hierarchy
+
+--The .dropdown class indicates a dropdown menu. To open the dropdown menu, use a button or a link with a class of .dropdown-toggle and the data-toggle="dropdown" attribute.
+
+--The .caret class creates a caret arrow icon (), which indicates that the button is a dropdown.
+
+--Add the .dropdown-menu class to a <ul> element to actually build the dropdown menu.
+
+--Wrap labels and form controls in <div class="form-group"> (needed for optimum spacing) .form-inline to the <form> element
+
+--The .collapse class indicates a collapsible element (a <div> in our example); this is the content that will be shown or hidden with a click of a button.
+To control (show/hide) the collapsible content, add the data-toggle="collapse" attribute to an <a> or a <button> element. Then add the data-target="#id" attribute to connect the button with the collapsible content (<div id="demo">).
+Note: For <a> elements, you can use the href attribute instead of the data-target attribute.
+
+--With Bootstrap, a navigation bar can extend or collapse, depending on the screen size.
+
+--A standard navigation bar is created with the .navbar class, followed by a responsive collapsing class: .navbar-expand-xl|lg|md|sm (stacks the navbar vertically on extra large, large, medium or small screens).
+
+--To add links inside the navbar, use a <ul> element with class="navbar-nav". Then add <li> elements with a .nav-item class followed by an <a> element with a .nav-link class:
+
+--To create a collapsible navigation bar, use a button with class="navbar-toggler", data-toggle="collapse" and data-target="#thetarget". Then wrap the navbar content (links, etc) inside a div element with class="collapse navbar-collapse", followed by an id that matches the data-target of the button: "thetarget".
+
+--Add a <form> element with class="form-inline" to group inputs and buttons side-by-side:
+
+--Add a wrapper element with .form-group, around each form control, to ensure proper margins.
